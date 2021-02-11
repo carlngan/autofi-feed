@@ -1,0 +1,51 @@
+node_modules
+/node_modules
+node_modules/*
+/node_modules/*
+bower_components
+bower_components/*
+npm-debug.log
+*Thumbs.db
+./config/email.json
+config/email.json
+.idea/*
+config/config.json
+./config/config.json
+./config/database.json
+
+# anguler-analytics (Google Analytics code)
+public/js/analytics.js
+/public/js/analytics.js
+
+# ENV files
+.env
+
+# DS_Store files
+.DS_Store
+.DS_Store*
+
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+/AdminLTE*
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+.eslintcache

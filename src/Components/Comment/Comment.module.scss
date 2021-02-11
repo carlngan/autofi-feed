@@ -1,0 +1,22 @@
+.container {
+  padding: 12px 16px 0;
+  display: flex;
+  .grayBox {
+    position: relative;
+    margin-left: 8px;
+    padding: 12px 16px;
+    background-color: rgb(242, 242, 242);
+    border-radius: 8px;
+    flex-grow: 1;
+    .name {
+      font-weight: bold;
+    }
+    .email {
+      color: rgba(0, 0, 0, 0.6);
+      font-size: 0.9rem;
+    }
+    .content {
+      padding-top: 8px;
+    }
+  }
+}

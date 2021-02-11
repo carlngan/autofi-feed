@@ -1,0 +1,29 @@
+.container {
+  padding: 12px 16px 0;
+  display: flex;
+  .commentBox {
+    position: relative;
+    margin-left: 8px;
+    flex-grow: 1;
+    input {
+      width: 100%;
+      border-radius: 20px;
+      border-color: rgba(0, 0, 0, 0.6);
+      padding: 10px;
+      outline: none;
+    }
+    .postButton {
+      background-color: #2693e9;
+      color: #fff;
+      border-radius: 5px;
+      border-color: #2693e9;
+    }
+  }
+  .poweredBy {
+    margin-left: 10px;
+    font-size: 0.7rem;
+    img {
+      height: 10px;
+    }
+  }
+}
